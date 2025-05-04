@@ -1,0 +1,353 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hello", "Hi", "Hey"],
+          "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
+      },
+      {
+          "tag": "civil_engineering_info",
+          "patterns": [
+              "Tell about Civil Engineering",
+              "details of Civil Engineering"
+          ],
+          "responses": [
+              "The Department of Civil Engineering offers a four-year Bachelor's degree program in Civil Engineering with an intake of 60 students. The department has experienced and qualified staff with field & research experience."
+          ]
+      },
+      {
+        "tag": "principal_info",
+        "patterns": [
+            "Who is the principal",
+            "Principal"
+        ],
+        "responses": [
+            " Dr. Parashivamurthy K I is the principal for GECK."
+        ]
+    },
+
+      {
+        "tag": "mechanical_engineering_info",
+        "patterns": [
+            "Tell about Mechanical Engineering",
+            "details of Mechanical Engineering"
+        ],
+        "responses": [
+            "The Department of  Mechanical Engineering offers a four-year Bachelor's degree program in Civil Engineering with an intake of 60 students. The department has experienced and qualified staff with field & research experience."
+        ]
+      },
+      {
+        "tag": "mechanical_hod",
+          "patterns": [
+              "who is HOD of mechanical engineering",
+              "HOD of mechanical department"
+          ],
+          "responses": [
+              "Prof. Dr. Seenappa is the HOD of the Mechanical Engineering department."
+          ]
+        
+      },
+
+      {
+          "tag": "civil_staff_details",
+          "patterns": [
+              "teaching staff of civil engineering",
+              "details of staff member of civil engineering"
+          ],
+          "responses": [
+              "You will get full details of the staff here."
+          ]
+      },
+      {
+          "tag": "civil_hod",
+          "patterns": [
+              "who is HOD of civil engineering",
+              "HOD of civil department"
+          ],
+          "responses": [
+              "Prof. Dr. Satisha is the HOD of the Civil Engineering department."
+          ]
+      },
+      {
+          "tag": "computer_department_info",
+          "patterns": [
+              "Tell me about computer department",
+              "details of computer department"
+          ],
+          "responses": [
+              "The Department of Computer Engineering offers a four-year Bachelor's degree program in Computer Engineering with 120 seats. The department has experienced and qualified staff with research experience."
+          ]
+      },
+      {
+          "tag": "computer_staff_details",
+          "patterns": [
+              "teaching staff of computer engineering",
+              "details of staff member of computer engineering"
+          ],
+          "responses": [
+              "Dr.Ranganath S is the Head of the Computer Engineering department,Dr.Venkatesh Prasad -Project Guide,Dr.Radhika -Placement Coordinator,Dr.Devika -Project Coordinator"
+          ]
+      },
+      {
+          "tag": "computer_hod",
+          "patterns": [
+              "who is HOD of computer department",
+              "HOD of computer department"
+          ],
+          "responses": [
+              "Dr.Ranganath S is the Head of the Computer Engineering department."
+          ]
+      },
+      {
+        "tag": "computer_staff",
+        "patterns": [
+            "who is Guide for this project",
+            "Project Guide"
+        ],
+        "responses": [
+            "Dr.Venkatesh Prasad is the Guide for this project."
+        ]
+    },
+      {
+          "tag": "identity",
+          "patterns": [
+              "Who are you?",
+              "What is your name?"
+          ],
+          "responses": [
+              "I am an AI-powered ChatBot, designed for GECK."
+          ]
+      },
+      {
+          "tag": "about_geck",
+          "patterns": [
+              "What is GECK?",
+              "Tell me about GECK"
+          ],
+          "responses": [
+              "GECK stands for Government Engineering College Kushalnagar."
+          ]
+      },
+      {
+          "tag": "origin",
+          "patterns": [
+              "Where are you from?"
+          ],
+          "responses": [
+              "I am from the CS department of Government Engineering College Kushalnagar."
+          ]
+      },
+      {
+          "tag": "college_address",
+          "patterns": [
+              "What is the address of your college?"
+          ],
+          "responses": [
+              "Government Engineering College, Beside Mandovi Motors, Madapatna, Mysore - Madikeri Road, Kushalnagar, Karnataka 571234."
+          ]
+      },
+      {
+          "tag": "college_contact",
+          "patterns": [
+              "How to contact your college?"
+          ],
+          "responses": [
+              "Phone: 082762 72335, Email: principal@GECKushalnagar.ac.in."
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you"
+          ],
+          "responses": [
+              "You're welcome!",
+              "Glad to help!"
+          ]
+      },
+      {
+          "tag": "about_ec",
+          "patterns": [
+              "Tell me about E&C department",
+              "Details of E&C engineering"
+          ],
+          "responses": [
+              "The Department of Electronics and Communication Engineering has highly qualified & dedicated staff members with specialized expertise and well-equipped labs."
+          ]
+      },
+      {
+          "tag": "ec_hod",
+          "patterns": [
+              "Who is HOD of EC department?"
+          ],
+          "responses": [
+              "Dr. Pavitra is the HOD of the E&C department."
+          ]
+      },
+      {
+          "tag": "mechanical_overview",
+          "patterns": [
+              "Tell about Mechanical Engineering",
+              "Give me details about Mechanical Engineering"
+          ],
+          "responses": [
+              "The Mechanical Engineering Department is equipped with the latest equipment and laboratories, along with excellent computational facilities."
+          ]
+      },
+      {
+          "tag": "sports_facilities",
+          "patterns": [
+              "Do you have sports facilities?"
+          ],
+          "responses": [
+              "Yes, we have both Indoor and Outdoor sports facilities. Our students are encouraged to participate in National and State Level sports."
+          ]
+      },
+      {
+          "tag": "library",
+          "patterns": [
+              "Library details"
+          ],
+          "responses": [
+              "The GECK Library serves as a central knowledge hub for students and faculty."
+          ]
+      },
+      {
+          "tag": "admission_details",
+          "patterns": [
+              "Admission details"
+          ],
+          "responses": [
+              "You can find admission details on the official website."
+          ]
+      },
+      {
+        "tag": "campus_tour",
+        "patterns": ["Can I see the college?", "Show me GEC campus"],
+        "responses": [
+          {
+            "type": "image",
+            "url": "https://example.com/campus.jpg",
+            "caption": "Here's our campus!"
+          }
+        ]
+      },
+      {
+        "tag": "timetable_query",
+        "patterns": [
+          "What is my next class?",
+          "When is my next lecture?",
+          "Show today's schedule"
+        ],
+        "responses": [
+          "Your next class is Data Structures at 11:00 AM in CSE."
+          
+        ]
+      },
+      {
+        "tag": "resume_builder",
+        "patterns": [
+          "Can you help me build a resume?",
+          "I want to create a resume",
+          "Generate my CV",
+          "Build my resume"
+        ],
+        "responses": [
+          "Sure! Please provide your full name, email, education, skills, and any work experience."
+        ]
+      },
+      {
+        
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! Need any help?", "Hey! I'm your GEC Assistant."]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+            "responses": ["Goodbye! Have a great day!", "See you soon!", "Take care!"]
+          },
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Much appreciated"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+          },
+          {
+            "tag": "college_info",
+            "patterns": ["Tell me about GEC Kushalnagar", "Where is GEC located?", "About the college"],
+            "responses": [
+              "GEC Kushalnagar is a government engineering college located in Kushalnagar, Karnataka.",
+              "It's a reputed institution under VTU with several undergraduate programs in engineering."
+            ]
+          },
+          {
+            "tag": "placements",
+            "patterns": ["Tell me about placements", "Placement details", "How are the placements?"],
+            "responses": [
+              "GEC Kushalnagar has a dedicated placement cell connecting students with top companies.",
+              "Recent placements include companies like Infosys, Wipro, and TCS."
+            ]
+          },
+          {
+            "tag": "course_recommendation",
+            "patterns": ["Which course should I choose?", "Suggest a branch", "Recommend a program"],
+            "responses": [
+              "Based on your interest in coding, CSE would be a good fit.",
+              "If you're interested in machines and automation, try Mechanical or EEE."
+            ]
+          },
+          {
+            "tag": "fee_assistant",
+            "patterns": ["How much is the fee?", "Fee structure", "Tell me the college fees"],
+            "responses": [
+              "The annual fee for government quota is approximately ₹20,000. Management quota varies.",
+              "You can check the latest fee structure on the college website or contact the office."
+            ]
+          },
+          {
+            "tag": "certificate_verification",
+            "patterns": ["Verify my certificate", "Is this certificate valid?", "Check my course completion"],
+            "responses": [
+              "Please upload your certificate ID for verification.",
+              "Kindly provide the certificate number. I’ll check its validity."
+            ]
+          },
+          {
+            "tag": "event_notification",
+            "patterns": ["Upcoming events", "Workshops this month", "Any fests happening?"],
+            "responses": [
+              "The annual tech fest is scheduled for next month!",
+              "Workshops on AI and Robotics are coming up. Stay tuned to the notice board."
+            ]
+          },
+          {
+            "tag": "sentiment_positive",
+            "patterns": ["I love this place", "This chatbot is great", "Feeling happy"],
+            "responses": [
+              "That's wonderful to hear! 😊",
+              "I'm glad you're enjoying the experience!"
+            ]
+          },
+          {
+            "tag": "sentiment_negative",
+            "patterns": ["I'm sad", "This is frustrating", "I hate this"],
+            "responses": [
+              "I'm here for you. Let me know how I can make things better.",
+              "Sorry you're feeling this way. Want to talk about it?"
+            ]
+          },
+          {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+              "I'm not sure about that. Would you like me to find more information?",
+              "Let me connect you to AI support for a better response."
+            ]
+          }
+        ]
+      }
+      
+      
+      
+  
