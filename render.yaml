@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: college-chatbot
+    env: python
+    region: oregon
+    plan: free
+    runtime: python 3.7
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: OPENAI_API_KEY
+        value: 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
