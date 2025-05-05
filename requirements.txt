@@ -4,7 +4,7 @@ nltk==3.6.3
 keras==2.6.0
 numpy==1.19.5
 openai==0.27.0
-tensorflow==2.6.0
+tensorflow==2.12.0
 textblob==0.15.3
 googletrans==4.0.0-rc1
 twilio==6.61.0
